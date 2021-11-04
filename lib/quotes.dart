@@ -20,7 +20,14 @@ class _WisdomState extends State<Wisdom> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Quotes'),
+        backgroundColor: Colors.greenAccent[200],
+        title: Text(
+          'Quotes',
+          style: TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
       ),
       body: Container(
         child: Column(
